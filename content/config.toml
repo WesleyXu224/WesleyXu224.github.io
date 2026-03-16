@@ -21,11 +21,12 @@ location_details = [
   "Guangzhou, China"
 ]
 # 注意：以下链接请替换为你真实的个人主页地址，如果没有可以留空或删除该行
-google_scholar = "https://scholar.google.com/" 
+google_scholar = "" 
 orcid = ""
-github = "https://github.com/"
-linkedin = "https://linkedin.com/"
-
+github = ""
+linkedin = ""
+icon = "simple-icons:xiaohongshu"
+href = "https://www.xiaohongshu.com/user/profile/6443c614000000001002b5cc"
 [features]
 # Show a like button on the about page
 enable_likes = true
