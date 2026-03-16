@@ -20,11 +20,13 @@ location_details = [
   "Hong Kong University of Science and Technology (Guangzhou),",
   "Guangzhou, China"
 ]
-# 注意：以下链接请替换为你真实的个人主页地址，如果没有可以留空或删除该行
-google_scholar = "" 
-orcid = ""
-github = ""
-linkedin = ""
+
+# 自定义社交链接：微信
+[[social.links]]
+icon = "ri:wechat-fill"
+href = "wesleyxu03" # 填入你提到的微信号
+
+# 自定义社交链接：小红书
 [[social.links]]
 icon = "simple-icons:xiaohongshu"
 href = "https://www.xiaohongshu.com/user/profile/6443c614000000001002b5cc"
