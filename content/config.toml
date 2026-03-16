@@ -1,85 +1,26 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
-favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+title = "Weisheng Xu"
+description = "Personal website of Weisheng Xu"
+url = "https://wesleyxu224.github.io"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
-avatar = "/bio.jpg"
+name = "Weisheng Xu"
+title = "research-oriented Red Bird Master (MPhil) Student"
+avatar = "/profile.png" # 记得把你的 profile.png 放到 PRISM 的 public/ 文件夹下
+bio = "Research-oriented Red Bird Master (MPhil) Student in Robotics and Autonomous Systems at HKUST(GZ). Research focused on Physics-based Humanoid Control and Embodied AI."
+location = "Guangzhou, China"
+email = "wxu421@connect.hkust-gz.edu.cn"
 
 [social]
-# Contact information (leave blank or delete to hide)
+github = "wesleyxu224"
+scholar = "https://scholar.google.cz/citations?user=iLP3qBEAAAAJ"
+orcid = "https://orcid.org/0009-0005-9959-5626"
+# 如果有 twitter 等可以继续在这里加： twitter = "你的id"
 
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
-location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+[navigation]
+# 配置顶部的导航栏
+items = [
+  { label = "Home", path = "/" },
+  { label = "Publications", path = "/publications" },
+  # { label = "CV", path = "/cv" }, # 如果后续你想加独立简历页，把这行取消注释
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
-
-[features]
-# Show a like button on the about page
-enable_likes = true
-
-# Display all subpages on a single page
-enable_one_page_mode = false
-
-[i18n]
-enabled = true
-locales = ["zh", "en"]
-default_locale = "en"
-# "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
-mode = "auto"
-fixed_locale = "en"
-# If true, PRISM will remember user's language preference in browser's localStorage
-persist = true
-# Show a language switcher on the top right corner
-switcher = true
-
-[i18n.labels]
-zh = "中文"
-en = "English"
-
-[[navigation]]
-title = "About"
-type = "page"
-target = "about"
-href = "/"
-
-[[navigation]]
-title = "Publications"
-type = "page"
-target = "publications"
-href = "/publications"
-
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "Awards"
-type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "CV"
-type = "page"
-target = "cv"
-href = "/cv"

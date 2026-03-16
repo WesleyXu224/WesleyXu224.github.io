@@ -1,29 +1,16 @@
-type = "about"
-title = "About"
+[hero]
+greeting = "Welcome!"
+description = """
+I am currently a research-oriented Red Bird Master (MPhil) Student in Robotics and Autonomous Systems at The Hong Kong University of Science and Technology (Guangzhou), where I am advised by Prof. Renjing Xu. Prior to this, I received my Bachelor of Engineering in Computer Science and Technology from Nanchang University.
 
-[profile]
-research_interests = [
-  "Computational Physics",
-  "Mathematical Principles",
-  "Proof of Theorems"
+My research interests lie in the intersection of **Physics-based Humanoid Control, Generative Motion Synthesis, 3D Computer Vision, and Reinforcement Learning**. I am deeply committed to advancing Embodied AI and developing scalable, robust control policies for humanoid robots.
+"""
+
+[news]
+title = "🔥 News"
+items = [
+  { date = "2026-02", content = "Our paper 'Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control' was accepted to **CVPR 2026**!" },
+  { date = "2025-12", content = "'FARM: Frame-Accelerated Augmentation and Residual Mixture-of-Experts for Physics-Based High-Dynamic Humanoid Control' was accepted as an **Oral Presentation at AAAI 2026**!" },
+  { date = "2025-09", content = "I joined HKUST(GZ) as a research-oriented Red Bird Master (MPhil) Student to pursue my research in Robotics and Autonomous Systems." },
+  { date = "2024", content = "Our papers on optical image reconstruction and 3D single object tracking were published/submitted." }
 ]
-
-[[sections]]
-id = "about"
-type = "markdown"
-source = "bio.md"
-title = "About"
-
-[[sections]]
-id = "featured_publications"
-type = "publications"
-title = "Selected Publications"
-filter = "selected"
-limit = 5
-
-[[sections]]
-id = "news"
-type = "list"
-title = "News"
-source = "news.toml"
-
