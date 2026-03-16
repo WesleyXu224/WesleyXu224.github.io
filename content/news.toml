@@ -1,7 +1,15 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2026-02"
+content = "Our paper 'Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control' has been accepted to **CVPR 2026**! 🎉"
+
+[[news]]
+date = "2026-01"
+content = "Our paper 'FARM' focusing on Physics-Based High-Dynamic Humanoid Control has been accepted to **AAAI 2026** for an **Oral Presentation**! 📢"
 
 [[news]]
 date = "2025-09"
-content = "Starting my PhD at the University of Example"
+content = "Started my MPhil journey in Robotics and Autonomous Systems at the **Hong Kong University of Science and Technology (Guangzhou)**! 🎓"
+
+[[news]]
+date = "2024-10"
+content = "Honored to receive the prestigious **Baogang Scholarship** (Top Academic Excellence Award). 🏆"

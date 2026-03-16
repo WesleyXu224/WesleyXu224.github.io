@@ -1,29 +1,30 @@
 [site]
 title = "Weisheng Xu"
-description = "PhD student at the University of Example."
+description = "MPhil student at the Hong Kong University of Science and Technology (Guangzhou)."
 favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+last_updated = "March 16, 2026"
 
 [author]
 name = "Weisheng Xu"
-title = "PhD Student"
-institution = "University of Example"
+title = "MPhil Student"
+institution = "HKUST (GZ)"
 avatar = "/bio.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
-location_url = "https://maps.google.com"
+email = "wxu421@connect.hkust-gz.edu.cn"
+location = "Guangzhou, China"
+location_url = "https://maps.google.com/?q=Hong+Kong+University+of+Science+and+Technology+(Guangzhou)"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "Hong Kong University of Science and Technology (Guangzhou),",
+  "Guangzhou, China"
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+# 注意：以下链接请替换为你真实的个人主页地址，如果没有可以留空或删除该行
+google_scholar = "https://scholar.google.com/" 
+orcid = ""
+github = "https://github.com/"
+linkedin = "https://linkedin.com/"
 
 [features]
 # Show a like button on the about page
