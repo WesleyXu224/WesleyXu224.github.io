@@ -25,6 +25,7 @@ google_scholar = ""
 orcid = ""
 github = ""
 linkedin = ""
+[[social.links]]
 icon = "simple-icons:xiaohongshu"
 href = "https://www.xiaohongshu.com/user/profile/6443c614000000001002b5cc"
 [features]
