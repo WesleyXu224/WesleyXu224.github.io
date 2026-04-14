@@ -5,8 +5,6 @@ title = "About"
 research_interests = [
   "Physics-based Humanoid Control",
   "Generative Motion Synthesis",
-  "3D Computer Vision",
-  "Large-scale Robot Datasets",
   "Reinforcement Learning"
 ]
 
